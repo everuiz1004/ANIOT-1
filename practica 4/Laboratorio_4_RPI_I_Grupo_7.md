@@ -136,9 +136,9 @@ Escribe un código que monitorice la temperatura leyendo el sensor Si7021 conect
 
 *Imagen 5 Medición de temperatura y humedad*
 
-En la imagen 5 se puede visualizar en el monitor de visual studio los valores tomados con el sensor de humedad y temperatura 
-
 </div>
+
+En la imagen 5 se puede visualizar en el monitor de visual studio los valores tomados con el sensor de humedad y temperatura 
 
 
 ###  Ejercicio 3 Usar componente ICM-42670-P con nuevo driver
