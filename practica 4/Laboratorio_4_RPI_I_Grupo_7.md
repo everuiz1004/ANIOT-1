@@ -84,7 +84,10 @@ $$\text{Raw Temp} = (99 \times 256) + 172 = 25344 + 172 = 25516$$
 
 Fórmula proporcionada:
 
-$$\text{Temperature (}^\circ\text{C)} = \frac{175.72 \times \text{Raw\_Temp}}{65536.0} - 46.85$$
+$$
+\mathrm{Temperature}\ (^\circ\mathrm{C}) =
+\frac{175.72 \times \mathrm{Raw\_Temp}}{65536.0} - 46.85
+$$
 
 Sustituyendo `Raw_Temp = 25516`:
 
