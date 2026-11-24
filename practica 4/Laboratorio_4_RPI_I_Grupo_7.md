@@ -120,7 +120,7 @@ Escribe un código que monitorice la temperatura leyendo el sensor Si7021 conect
 
 <div align="center">
 
-![img4](img/img2.1.png.png)
+![img10](img/img10.png.png)
 
 *Imagen 4 Respuesta del sensor con la temperatura y humedad*
 
@@ -132,13 +132,13 @@ Escribe un código que monitorice la temperatura leyendo el sensor Si7021 conect
 
 <div align="center">
 
-![img10](img/img10.png)
+![img8](img/img2.1.png)
 
 *Imagen 5 Medición de temperatura y humedad*
 
-</div>
-
 En la imagen 5 se puede visualizar en el monitor de visual studio los valores tomados con el sensor de humedad y temperatura 
+
+</div>
 
 
 ###  Ejercicio 3 Usar componente ICM-42670-P con nuevo driver
