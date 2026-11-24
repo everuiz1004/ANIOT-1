@@ -132,7 +132,7 @@ Escribe un código que monitorice la temperatura leyendo el sensor Si7021 conect
 
 <div align="center">
 
-![img2.1](img/img2.1.png)
+![img10](img/img10.png)
 
 *Imagen 5 Medición de temperatura y humedad*
 
