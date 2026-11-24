@@ -63,14 +63,14 @@ La captura muestra dos operaciones consecutivas de escritura y lectura en la con
 
 # Cálculo de Temperatura desde Lectura I2C (Si7021 / HTU21D)
 
-## 1. Datos obtenidos del bus I2C
+### 1. Datos obtenidos del bus I2C
 * **Dirección del dispositivo:** `0x40`
 * **Comando de lectura de temperatura previa:** `0xe0`
 * **Bytes leídos (`MSB` y `LSB`):** `0x63 0xac`
 
 ---
 
-## 2. Conversión a valor crudo (Raw_Temp)
+### 2. Conversión a valor crudo (Raw_Temp)
 
 Se combinan los dos bytes recibidos en un entero sin signo de 16 bits (uint16_t), desplazando el byte más significativo (0x63) y sumando el byte menos significativo (0xac).
 
@@ -80,7 +80,7 @@ Conversión a decimal:
 
 $$\text{Raw Temp} = (99 \times 256) + 172 = 25344 + 172 = 25516$$
 
-## 3. Aplicación de la fórmula de temperatura
+### 3. Aplicación de la fórmula de temperatura
 
 Fórmula proporcionada:
 
@@ -98,7 +98,7 @@ $$\text{Temperature (}^\circ\text{C)} = \frac{4483671.52}{65536.0} - 46.85$$
 $$\text{Temperature (}^\circ\text{C)} \approx 68.4154 - 46.85 = \mathbf{21.5654\,^\circ\text{C}}$$
 
 
-## 4. Implementación equivalente en C (ESP-IDF)
+### 4. Implementación equivalente en C (ESP-IDF)
 
 ```c
 uint8_t raw_data[2] = {0x63, 0xac}; // Bytes leídos del registro 0xE0
