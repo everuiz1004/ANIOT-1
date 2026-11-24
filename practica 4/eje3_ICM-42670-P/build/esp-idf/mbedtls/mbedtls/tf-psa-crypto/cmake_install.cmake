@@ -39,19 +39,19 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/include/cmake_install.cmake")
-  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/cmake_install.cmake")
-  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/extras/cmake_install.cmake")
-  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/platform/cmake_install.cmake")
-  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/utilities/cmake_install.cmake")
-  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/cmake_install.cmake")
-  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/pkgconfig/cmake_install.cmake")
+  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/include/cmake_install.cmake")
+  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/cmake_install.cmake")
+  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/extras/cmake_install.cmake")
+  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/platform/cmake_install.cmake")
+  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/utilities/cmake_install.cmake")
+  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/cmake_install.cmake")
+  include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/pkgconfig/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/install_local_manifest.txt"
+  file(WRITE "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,0 +1,8 @@
+Command: ninja all
+[1/4] cd "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build" && /home/estefany/.espressif/tools/python/v6.1/venv/bin/python /home/estefany/.espressif/v6.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/estefany/ANIOT-1/practica\ 4/eje3_ICM-42670-P/build/partition_table/partition-table.bin /home/estefany/ANIOT-1/practica\ 4/eje3_ICM-42670-P/build/icm42670.bin
+icm42670.bin binary size 0x30010 bytes. Smallest app partition is 0x100000 bytes. 0xcfff0 bytes (81%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/bootloader" && /home/estefany/.espressif/tools/python/v6.1/venv/bin/python /home/estefany/.espressif/v6.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/estefany/ANIOT-1/practica\ 4/eje3_ICM-42670-P/build/bootloader/bootloader.bin
+Bootloader binary size 0x52a0 bytes. 0x2d60 bytes (35%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'

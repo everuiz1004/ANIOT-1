@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "7.0.0-44-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/toolchain/toolchain-esp32c3.cmake")
+include("/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/toolchain/toolchain-esp32c3.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

@@ -5524,7 +5524,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "sensor-hub-options-sensor-build-options-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-icm42670-managed_components-espressif__sensor_hub-Kconfig.projbuild-3",
+                "id": "sensor-hub-options-sensor-build-options-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-managed_components-espressif__sensor_hub-Kconfig.projbuild-3",
                 "title": "Sensor Build Options",
                 "type": "menu"
             },
@@ -5562,7 +5562,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "sensor-hub-options-sensor-task-options-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-icm42670-managed_components-espressif__sensor_hub-Kconfig.projbuild-15",
+                "id": "sensor-hub-options-sensor-task-options-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-managed_components-espressif__sensor_hub-Kconfig.projbuild-15",
                 "title": "Sensor Task Options",
                 "type": "menu"
             },
@@ -5641,13 +5641,13 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "sensor-hub-options-sensor-event-loop-options-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-icm42670-managed_components-espressif__sensor_hub-Kconfig.projbuild-28",
+                "id": "sensor-hub-options-sensor-event-loop-options-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-managed_components-espressif__sensor_hub-Kconfig.projbuild-28",
                 "title": "Sensor Event Loop Options",
                 "type": "menu"
             }
         ],
         "depends_on": null,
-        "id": "sensor-hub-options-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-icm42670-managed_components-espressif__sensor_hub-Kconfig.projbuild-1",
+        "id": "sensor-hub-options-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-managed_components-espressif__sensor_hub-Kconfig.projbuild-1",
         "title": "Sensor Hub Options",
         "type": "menu"
     },
@@ -41833,7 +41833,7 @@
                         ],
                         "depends_on": null,
                         "help": "Use color in diagnostics. \"never\", \"always\", or \"auto\". If \"always\", GCC will output\nwith color defined in GCC_COLORS environment variable. If \"never\", only output plain\ntext. If \"auto\", only output with color when the standard error is a terminal and when\nnot executing in an emacs shell.",
-                        "id": "component-config-cmake-utilities-color-in-diagnostics-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-icm42670-managed_components-espressif__cmake_utilities-Kconfig-34",
+                        "id": "component-config-cmake-utilities-color-in-diagnostics-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-managed_components-espressif__cmake_utilities-Kconfig-34",
                         "name": "CU_DIAGNOSTICS_COLOR",
                         "title": "Color in diagnostics",
                         "type": "choice"
@@ -41860,7 +41860,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-cmake-utilities-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-icm42670-managed_components-espressif__cmake_utilities-Kconfig-1",
+                "id": "component-config-cmake-utilities-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-managed_components-espressif__cmake_utilities-Kconfig-1",
                 "title": "CMake Utilities",
                 "type": "menu"
             },
@@ -41934,13 +41934,13 @@
                             }
                         ],
                         "depends_on": null,
-                        "id": "component-config-bus-options-i2c-bus-options-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-icm42670-managed_components-espressif__i2c_bus-Kconfig-3",
+                        "id": "component-config-bus-options-i2c-bus-options-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-managed_components-espressif__i2c_bus-Kconfig-3",
                         "title": "I2C Bus Options",
                         "type": "menu"
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-bus-options-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-icm42670-managed_components-espressif__i2c_bus-Kconfig-1",
+                "id": "component-config-bus-options-home-estefany-ANIOT-1-practica 4-eje3_ICM-42670-P-managed_components-espressif__i2c_bus-Kconfig-1",
                 "title": "Bus Options",
                 "type": "menu"
             },

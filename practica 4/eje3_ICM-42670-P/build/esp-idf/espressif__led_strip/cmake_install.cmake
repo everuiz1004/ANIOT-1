@@ -1,4 +1,4 @@
-# Install script for directory: /home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/managed_components/espressif__led_strip
+# Install script for directory: /home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/managed_components/espressif__led_strip
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/esp-idf/espressif__led_strip/install_local_manifest.txt"
+  file(WRITE "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/esp-idf/espressif__led_strip/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

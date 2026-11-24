@@ -44,6 +44,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/install_local_manifest.txt"
+  file(WRITE "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

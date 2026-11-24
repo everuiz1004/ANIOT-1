@@ -1,2 +1,2 @@
-source /home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/gdbinit/symbols
-source /home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/gdbinit/connect
+source /home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/gdbinit/symbols
+source /home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/gdbinit/connect

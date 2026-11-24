@@ -10,18 +10,18 @@ if(NOT EXISTS "/home/estefany/.espressif/v6.1/esp-idf/components/bootloader/subp
   file(MAKE_DIRECTORY "/home/estefany/.espressif/v6.1/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/bootloader"
-  "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/bootloader-prefix"
-  "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/bootloader-prefix/tmp"
-  "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/bootloader-prefix/src"
-  "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/bootloader"
+  "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/bootloader-prefix"
+  "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/bootloader-prefix/tmp"
+  "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/bootloader-prefix/src"
+  "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

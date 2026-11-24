@@ -23,8 +23,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/bootloader/bootloader.elf
+    add-symbol-file /home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/icm42670.elf
+file /home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/build/icm42670.elf
