@@ -1,0 +1,4 @@
+-march=rv32imc_zicsr_zifencei
+-mtune=esp-base
+"-specs=/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670/build/specs/picolibc.specs"
+-fno-rtti

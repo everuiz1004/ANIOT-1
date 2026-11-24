@@ -169,4 +169,4 @@ Byte 2	0x0D	ACCEL_DATA_Y1	Eje Y — Byte más significativo (MSB, bits [15:8])
 Byte 3	0x0E	ACCEL_DATA_Y0	Eje Y — Byte menos significativo (LSB, bits [7:0])
 Byte 4	0x0F	ACCEL_DATA_Z1	Eje Z — Byte más significativo (MSB, bits [15:8])
 Byte 5	0x10	ACCEL_DATA_Z0	Eje Z — Byte menos significativo (LSB, bits [7:0])
-¿Quieres que te muestre cómo reconstruir los valores X, Y, Z en C y convertirlos a unidades g?
+¿Quieres que te muestre cómo reconstruir los valores X, Y, Z en C y convertirlos a 

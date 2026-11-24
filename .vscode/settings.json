@@ -1,3 +1,16 @@
 {
-    "cmake.sourceDirectory": "/home/coder/projects/ANIOT/hello_world"
+    "cmake.sourceDirectory": "/home/estefany/ANIOT-1/practica 4/eje3_ICM-42670-P/icm42670",
+    "idf.currentSetup": "/home/estefany/.espressif/v6.1/esp-idf",
+    "idf.port": "/dev/ttyACM0",
+    "idf.flashType": "JTAG",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-builtin.cfg"
+    ],
+    "idf.customExtraVars": {},
+    "clangd.path": "/home/estefany/.espressif/tools/esp-clangd/esp-21.1.3_20260408/esp-clangd/bin/clangd",
+    "clangd.arguments": [
+      "--background-index",
+      "--query-driver=**",
+      "--compile-commands-dir=/home/estefany/ANIOT-1/build"
+    ]
 }
