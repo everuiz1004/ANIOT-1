@@ -34,7 +34,7 @@ Compila y prueba el ejemplo i2c_tools de la carpeta de ejemplos (examples/periph
 
 ![img2](img/img2.png)
 
-*Escaneo y conexión con el dispositivo*
+*Imagen 2 Escaneo y conexión con el dispositivo*
 
 </div>
 
@@ -48,7 +48,7 @@ Escaneo de dispositivos (i2cdetect): Se muestra una tabla hexadecimal de direcci
 
 ![img3](img/img3.png)
 
-*Respuesta a la escritura y consulta*
+*Imagen 3 Respuesta a la escritura y consulta*
 
 </div>
 
