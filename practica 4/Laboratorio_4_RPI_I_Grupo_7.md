@@ -64,9 +64,9 @@ La captura muestra dos operaciones consecutivas de escritura y lectura en la con
 # Cálculo de Temperatura desde Lectura I2C (Si7021 / HTU21D)
 
 ## 1. Datos obtenidos del bus I2C
-* **Dirección del dispositivo:** `0x40`[cite: 3]
-* **Comando de lectura de temperatura previa:** `0xe0`[cite: 3]
-* **Bytes leídos (`MSB` y `LSB`):** `0x63 0xac`[cite: 3]
+* **Dirección del dispositivo:** `0x40`
+* **Comando de lectura de temperatura previa:** `0xe0`
+* **Bytes leídos (`MSB` y `LSB`):** `0x63 0xac`
 
 ---
 
