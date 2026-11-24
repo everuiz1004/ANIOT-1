@@ -73,18 +73,15 @@ La captura muestra dos operaciones consecutivas de escritura y lectura en la con
 ## 2. Conversión a valor crudo (`Raw_Temp`)
 Se combinan los dos bytes recibidos en un entero sin signo de 16 bits (`uint16_t`), desplazando el byte más significativo (`0x63`) 8 bits a la izquierda y aplicando una operación `OR` con el byte menos significativo (`0xac`)[cite: 3]:
 
-$$
-\text{Raw\_Temp} = (\text{0x63} \ll 8) \mid \text{0xac} = \text{0x63ac}
-$$
-
+\[
+Raw\_Temp = (0x63 \ll 8) \;|\; 0xac = 0x63ac
+\]
 
 Conversión a decimal:
 
-$$
-\text{Raw\_Temp} = (99 \times 256) + 172 = 25344 + 172 = 25516
-$$
-
----
+\[
+Raw\_Temp = (99 \times 256) + 172 = 25516
+\]
 
 ## 3. Aplicación de la fórmula de temperatura
 Fórmula proporcionada[cite: 4]:
