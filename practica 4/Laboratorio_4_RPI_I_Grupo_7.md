@@ -126,11 +126,48 @@ Escribe un código que monitorice la temperatura leyendo el sensor Si7021 conect
 
 <div align="center">
 
+![img8](img/img2.1.png)
+
+*Imagen 5 Medición de temperatura y humedad*
+
+En la imagen 5 se puede visualizar en el monitor de visual studio los valores tomados con el sensor de humedad y temperatura 
+
+</div>
+
+
+###  Ejercicio 3 Usar componente ICM-42670-P con nuevo driver
+
+El registro de componentes de IDF incluye un componente para utilizar la IMU incluida en la placa ESP-RUST-BOARD (con el SoC ESP32-C3):ICM42607/ICM42670 6-Axis MotionTracking (Accelerometer and Gyroscope).
+
+Crea una aplicación que monitorice el estado del acelerómetro y determine si la placa está boca arriba o boca abajo. El LED RGB cambiará de color en función de la orientación, y se imprimirá por terminal el estado actual.
+
+Recuerda que, antes de poder usar cualquier dispositivo I2C, es necesario instanciar el controlador de bus I2C que vayamos a utilizar (en este caso, el úinico disponible en esta placa).
+
+<div align="center">
+
+![img6](img/img6.png)
+
+*Lista de atributos de GATT*
+
+</div>
+
+
+<div align="center">
+
+![img7](img/img7.png)
+
+*Lista de atributos de GATT*
+
+</div>
+
+<div align="center">
+
 ![img8](img/img8.png)
 
 *Lista de atributos de GATT*
 
 </div>
+
 
 ## Cuestiones
 
@@ -169,4 +206,3 @@ Byte 2	0x0D	ACCEL_DATA_Y1	Eje Y — Byte más significativo (MSB, bits [15:8])
 Byte 3	0x0E	ACCEL_DATA_Y0	Eje Y — Byte menos significativo (LSB, bits [7:0])
 Byte 4	0x0F	ACCEL_DATA_Z1	Eje Z — Byte más significativo (MSB, bits [15:8])
 Byte 5	0x10	ACCEL_DATA_Z0	Eje Z — Byte menos significativo (LSB, bits [7:0])
-¿Quieres que te muestre cómo reconstruir los valores X, Y, Z en C y convertirlos a 
