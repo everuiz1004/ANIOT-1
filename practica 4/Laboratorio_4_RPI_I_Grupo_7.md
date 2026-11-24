@@ -70,21 +70,19 @@ La captura muestra dos operaciones consecutivas de escritura y lectura en la con
 
 ---
 
-## 2. Conversión a valor crudo (`Raw_Temp`)
-Se combinan los dos bytes recibidos en un entero sin signo de 16 bits (`uint16_t`), desplazando el byte más significativo (`0x63`) 8 bits a la izquierda y aplicando una operación `OR` con el byte menos significativo (`0xac`)[cite: 3]:
+## 2. Conversión a valor crudo (Raw_Temp)
 
-\[
-Raw\_Temp = (0x63 \ll 8) \;|\; 0xac = 0x63ac
-\]
+Se combinan los dos bytes recibidos en un entero sin signo de 16 bits (uint16_t), desplazando el byte más significativo (0x63) y sumando el byte menos significativo (0xac).
+
+$$\text{Raw Temp} = (\text{0x63} \times 256) + \text{0xac} = \text{0x63ac}$$
 
 Conversión a decimal:
 
-\[
-Raw\_Temp = (99 \times 256) + 172 = 25516
-\]
+$$\text{Raw Temp} = (99 \times 256) + 172 = 25344 + 172 = 25516$$
 
 ## 3. Aplicación de la fórmula de temperatura
-Fórmula proporcionada[cite: 4]:
+
+Fórmula proporcionada:
 
 $$\text{Temperature (}^\circ\text{C)} = \frac{175.72 \times \text{Raw\_Temp}}{65536.0} - 46.85$$
 
@@ -96,14 +94,17 @@ $$\text{Temperature (}^\circ\text{C)} = \frac{4483671.52}{65536.0} - 46.85$$
 
 $$\text{Temperature (}^\circ\text{C)} \approx 68.4154 - 46.85 = \mathbf{21.5654\,^\circ\text{C}}$$
 
----
 
 ## 4. Implementación equivalente en C (ESP-IDF)
 
 ```c
-uint8_t raw_data[2] = {0x63, 0xac}; // Bytes leídos del registro 0xe0[cite: 3]
+uint8_t raw_data[2] = {0x63, 0xac}; // Bytes leídos del registro 0xE0
+
 uint16_t raw_temp = ((uint16_t)raw_data[0] << 8) | raw_data[1];
-float temperature = ((175.72f * (float)raw_temp) / 65536.0f) - 46.85f; // 21.57 °C[cite: 4]5654^\circ\text{C}$$  
+
+float temperature = ((175.72f * (float)raw_temp) / 65536.0f) - 46.85f;
+
+printf("Temperatura: %.2f °C\n", temperature);
 ```
 
 ### Ejercicio 2
@@ -149,7 +150,7 @@ Recuerda que, antes de poder usar cualquier dispositivo I2C, es necesario instan
 
 ![img6](img/img6.png)
 
-*Lista de atributos de GATT*
+*Imagen 6 Letura boca abajo el ESP32C3*
 
 </div>
 
@@ -158,7 +159,7 @@ Recuerda que, antes de poder usar cualquier dispositivo I2C, es necesario instan
 
 ![img7](img/img7.png)
 
-*Lista de atributos de GATT*
+*Imagen 7 Letura Lado inclinado del ESP32C3*
 
 </div>
 
@@ -166,7 +167,7 @@ Recuerda que, antes de poder usar cualquier dispositivo I2C, es necesario instan
 
 ![img8](img/img8.png)
 
-*Lista de atributos de GATT*
+*Imagen 7 Letura boca arriba del ESP32C3*
 
 </div>
 
